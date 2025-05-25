@@ -1,15 +1,15 @@
-permissions:
-  contents: write
-  deployments: write
-  secrets: read   # Required to access VERCEL_TOKEN, RENDER_API_KEY, etc.
-  variables: read # Needed for repository variables
-
-
 name: Deploy to Vercel + Render
 
 on:
   push:
     branches: [main]
+
+
+permissions:
+  contents: write
+  deployments: write
+  secrets: read   # Required to access VERCEL_TOKEN, RENDER_API_KEY, etc.
+  variables: read # Needed for repository variables
 
 jobs:
   deploy_frontend:
