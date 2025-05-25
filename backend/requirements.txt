@@ -1,5 +1,5 @@
-flask
-gunicorn==21.2.0 
-python-dotenv
-psycopg2-binary  # PostgreSQL adapter
-flask-sqlalchemygunicorn==21.2.0
+flask==3.1.1
+gunicorn==21.2.0
+python-dotenv==1.1.0
+psycopg2-binary==2.9.10
+flask-sqlalchemy==3.1.1
