@@ -24,3 +24,13 @@ def test_endpoint():
         "policies": ["rbac", "abac", "mac"],
         "connected_to_db": True  # Remove this if not using PostgreSQL
     })
+
+@app.route('/')
+def home():
+    return jsonify({
+        "message": "Access Control API",
+        "endpoints": {
+            "test": "/api/test",
+            "check_access": "/api/check-access"
+        }
+    })
