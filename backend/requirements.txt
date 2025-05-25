@@ -1,1 +1,4 @@
-flask\npython-dotenv
+flask
+python-dotenv
+psycopg2-binary  # PostgreSQL adapter
+flask-sqlalchemy
