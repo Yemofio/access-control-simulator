@@ -6,7 +6,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('https://your-backend-service.onrender.com/api/test') // Replace with your Render URL
+    fetch('https://access-control-backend-izwo.onrender.com') // Replace with your Render URL
       .then(response => response.json())
       .then(data => {
         setData(data);
