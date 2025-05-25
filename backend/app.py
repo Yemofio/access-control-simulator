@@ -14,3 +14,11 @@ class User(db.Model):
 # Initialize tables (run once)
 with app.app_context():
     db.create_all()
+
+@app.route('/api/test')
+def test_endpoint():
+    return jsonify({
+        "status": "success",
+        "policies": ["rbac", "abac", "mac"],
+        "connected_to_db": True  # Remove this if not using PostgreSQL
+    })
