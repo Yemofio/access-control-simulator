@@ -10,7 +10,7 @@ Enterprise-grade Zero Trust, RBAC, ABAC, and MAC simulation with real-time threa
 - **React + Flask Stack**  
 
 ## Live Demo
-[![Vercel](https://img.shields.io/badge/Demo-Live-green)](https://your-vercel-url.vercel.app)
+url
 
 ## Quick Start
 ```bash
